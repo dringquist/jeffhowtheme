@@ -1,0 +1,77 @@
+
+Handy Code for custom taxonomy query args 
+
+<?php // Define custom taxonomy arg for query
+  $args = array(
+  	'post_type' => 'post', // it's default, you can skip it
+    'posts_per_page' => '4',
+    'order_by' => 'date', // it's also default
+    'order' => 'DESC', // it's also default
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'courses',
+            'field' => 'slug',
+            'terms' => array ('game-dev', 'all-courses')
+        )
+    )
+  ); ?>
+  
+  
+/**
+ * Exclude posts categorized as "Courses" from the blog page
+ * This would go in the functions file
+ */
+function excludeCat($query) {
+  if ( $query->is_home ) {
+    $query->set('cat', '-7'); // Courses = ID 7
+  }
+  return $query;
+}
+add_filter('pre_get_posts', 'excludeCat');
+
+
+/**
+ * Custom pagination for blog, category archives, and search page
+ * for more info see: https://codex.wordpress.org/Pagination
+ */
+function jeffhow_post_queries( $query ) {
+  // do not alter the query on wp-admin pages and only alter it if it's the main query
+  if (!is_admin() && $query->is_main_query()){
+
+    // alter the query for the home and category pages 
+
+    if(is_home()){
+      $query->set('posts_per_page', 5);
+    }
+
+    if(is_category()){
+      $query->set('posts_per_page', 5);
+    }
+    
+    if(is_search()){
+      $query->set('posts_per_page', 5);
+    }
+
+  }
+}
+add_action( 'pre_get_posts', 'jeffhow_post_queries' );
+
+
+/// LEFT OFF:
+
+ - Need to create category / archive / (and finish) course templates -DONE
+  - (should look like the blog post) -DONE
+ - Fix Footer -DONE
+  - Add youtube -DONE
+  - make look better -DONE
+ - Make video content php -DONE
+ - make image content php -DONE
+ - make page.php -DONE
+ - make content-page.php -DONE
+ - add about me Page -DONE
+  - make profile query content from that post -DONE
+ - GO LIVE!!!
+  - Add in-post ad plugin
+  - setup adsense ads in widget and plugin
+  - start making lessons and blog posts
+ 

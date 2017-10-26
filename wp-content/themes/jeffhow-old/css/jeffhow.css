@@ -1,0 +1,131 @@
+div.jumbotron h1{
+    font-family: 'Poppins', sans-serif;
+    color:#ff6117;
+    text-shadow: 2px 2px #fff;
+}
+
+.navbar-brand .jeff{
+    color:#ff6117;
+}
+
+.navbar-brand .how{
+    color:#0098FF;
+}
+
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.course-panel .panel-body{
+    min-height: 200px;
+}
+
+.course-panel .panel-footer{
+    min-height: 100px;
+    /**background-color:rgba(0, 152, 255, 0.5);*/
+    background-color:#CDDEEC;
+}
+
+.course-title{
+    font-size: 32px;
+}
+
+.course-circle{
+    background-color: #FFA276;
+    border: solid white 6px;
+    border-radius: 50px;
+    height: 50px;
+    width:50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+.home-outer-post{
+    background-color: #0098FF;
+    padding-left: 0;
+    margin-bottom:5px;
+}
+
+.home-inner-post{
+    background-color: #CDDEEC;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.home-inner-post h3{
+    margin:0;
+    padding-top: 15px;
+}
+
+.home-post-row{
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.home-section-header h4{
+    color: #ff6117;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home-section-header hr{
+    background-color: #ff6117;
+    height:2px;
+    margin:0;
+}
+
+.home-latest-lesson .panel-heading{
+    background-color: #CDDEEC;
+}
+
+.home-latest-lesson .panel-body{
+    background-color: #FFA276;
+}
+
+.navbar-default{
+    background-color: #fff;
+    border-width: 0;
+}
+
+.jeff-search-bar{
+    padding-top: 3px;
+}
+
+.container{
+    background-color: #fff;
+}
+body{
+    background-color: #ccc;
+}
+
+.aside-panel{
+    padding:15px;
+    background-color: #CDDEEC;
+    margin: 15px 0 15px 0;
+}
+
+.aside-panel p{
+    margin:0;
+    padding:10px;
+    background-color:#fff;
+    box-shadow: 5px 5px 5px #888888;
+}   
+/**
+#ff6117 - Orange
+#FFA276 - Lt Orange
+#CDDEEC - Lt Blue
+#0098FF - Blue
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+**/

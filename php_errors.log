@@ -1,0 +1,103 @@
+[06-Sep-2016 17:25:18 UTC] PHP Fatal error:  Call to undefined function register_nav_menue() in /home/ubuntu/workspace/wp-content/themes/jeffhow/functions.php on line 39
+[06-Sep-2016 17:25:18 UTC] PHP Stack trace:
+[06-Sep-2016 17:25:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[06-Sep-2016 17:25:18 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[06-Sep-2016 17:25:18 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:39
+[06-Sep-2016 17:25:18 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[06-Sep-2016 17:25:18 UTC] PHP   5. do_action() /home/ubuntu/workspace/wp-settings.php:411
+[06-Sep-2016 17:25:18 UTC] PHP   6. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[06-Sep-2016 17:25:18 UTC] PHP   7. jeffhow_theme_setup() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[06-Sep-2016 17:25:24 UTC] PHP Fatal error:  Call to undefined function register_nav_menue() in /home/ubuntu/workspace/wp-content/themes/jeffhow/functions.php on line 39
+[06-Sep-2016 17:25:24 UTC] PHP Stack trace:
+[06-Sep-2016 17:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/nav-menus.php:0
+[06-Sep-2016 17:25:24 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/nav-menus.php:13
+[06-Sep-2016 17:25:24 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[06-Sep-2016 17:25:24 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:39
+[06-Sep-2016 17:25:24 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[06-Sep-2016 17:25:24 UTC] PHP   6. do_action() /home/ubuntu/workspace/wp-settings.php:411
+[06-Sep-2016 17:25:24 UTC] PHP   7. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[06-Sep-2016 17:25:24 UTC] PHP   8. jeffhow_theme_setup() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[07-Sep-2016 16:22:30 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/wp-content/themes/jeffhow/functions.php on line 55
+[07-Sep-2016 16:22:30 UTC] PHP Stack trace:
+[07-Sep-2016 16:22:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/customize.php:0
+[07-Sep-2016 16:22:30 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/customize.php:13
+[07-Sep-2016 16:22:30 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[07-Sep-2016 16:22:30 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:39
+[07-Sep-2016 16:22:30 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[31-Jan-2017 14:51:14 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 14:51:14 UTC] PHP Stack trace:
+[31-Jan-2017 14:51:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 14:51:14 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 14:51:14 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 14:51:14 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 14:51:14 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 14:52:29 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 14:52:29 UTC] PHP Stack trace:
+[31-Jan-2017 14:52:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 14:52:29 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 14:52:29 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 14:52:29 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 14:52:29 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 14:54:28 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 14:54:28 UTC] PHP Stack trace:
+[31-Jan-2017 14:54:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 14:54:28 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 14:54:28 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 14:54:28 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 14:54:28 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:05:32 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:05:32 UTC] PHP Stack trace:
+[31-Jan-2017 15:05:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:05:32 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:05:32 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:05:32 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:05:32 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:05:46 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:05:46 UTC] PHP Stack trace:
+[31-Jan-2017 15:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:05:46 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:05:46 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:05:46 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:05:46 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:14:16 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:14:16 UTC] PHP Stack trace:
+[31-Jan-2017 15:14:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:14:16 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:14:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:14:16 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:14:16 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:45:51 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:45:51 UTC] PHP Stack trace:
+[31-Jan-2017 15:45:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:45:51 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:45:51 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:45:51 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:45:51 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:45:59 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:45:59 UTC] PHP Stack trace:
+[31-Jan-2017 15:45:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:45:59 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:45:59 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:45:59 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:45:59 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:46:40 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:46:40 UTC] PHP Stack trace:
+[31-Jan-2017 15:46:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:46:40 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:46:40 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:46:40 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:46:40 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:49:58 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:49:58 UTC] PHP Stack trace:
+[31-Jan-2017 15:49:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:49:58 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:91
+[31-Jan-2017 15:49:58 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:49:58 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:49:58 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
+[31-Jan-2017 15:51:24 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php on line 687
+[31-Jan-2017 15:51:24 UTC] PHP Stack trace:
+[31-Jan-2017 15:51:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[31-Jan-2017 15:51:24 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:101
+[31-Jan-2017 15:51:24 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:524}() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:51:24 UTC] PHP   4. floating_social_bar->load_stats() /home/ubuntu/workspace/wp-includes/plugin.php:524
+[31-Jan-2017 15:51:24 UTC] PHP   5. floating_social_bar->do_stats_update() /home/ubuntu/workspace/wp-content/plugins/floating-social-bar/class-floating-social-bar.php:1032
